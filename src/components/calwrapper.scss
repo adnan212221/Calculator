@@ -1,0 +1,28 @@
+.main-cal{
+    // height: 500px;
+    // width: 200px;
+    display: flex;
+    position: relative;
+    // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.bt-name{
+    flex: 3;
+    gap: 20px;
+}
+
+.bt-operator{
+    flex: 1;
+}
+
+.bt-operator :last-child{
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+}
+
+.bt-operator :nth-last-child(2)  {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+}
